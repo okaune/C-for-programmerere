@@ -1,0 +1,20 @@
+Oppgave 2:
+  Du får feilmeldingen "Segmentation fault" fordi du forsøker å addressere
+  minne som enten ikke finnes eller du ikke har rettigheter til.
+  
+Oppgave 3:
+  Dersom cin leser inn tekst som er lengre enn 5 tegn, vil man skrive
+  til minne utenfor det angitte området.
+  Dersom pekeren aldri peker på tegnet "e", vil man ende i en evig løkke
+  og skrive over hele minnet med tegnet "e".
+
+Oppgave 4:
+  int a = 5; Denne er grei
+  int &b: Er en referanse men refererer ikke til noe. Feil
+  int *c; Peker som ikke peker til noe, skaper ikke kompileringsfeil.
+          men får bare en tilfeldig minnelokasjon når man skriver den ut.
+  c = &b; Denne går greit, gitt at b har en verdi.
+  *a = *b + *c; Her prøver man å dereferere a, som alt er en int, og ikke en peker.
+          selv om man ikke derefererte a har ikke b og c noen verdi.
+  &b = 2; Her prøver man å sette referansen til en verdi, det er ikke lov.
+  

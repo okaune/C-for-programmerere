@@ -1,0 +1,11 @@
+# MacOS
+.DS_Store
+
+# juci
+jucipp/
+
+# cpp
+build/
+
+# tar gz
+*.tar.gz
