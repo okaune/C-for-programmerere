@@ -1,4 +1,9 @@
 # C++ for programmerere (IINI4003)
+Faget krever innlevering av prosjektkatalogen som en komprimert fil vha. .tar.gz
+komprimering. Bruk følgende kommando i terminalen:
+```bash
+$ tar -zcvf <filnavn>.tar.gz <mappe>
+```
 
 ## Øvinger:
 * [Øving 1](ov1) (Grunnleggende C++)
