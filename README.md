@@ -1,4 +1,4 @@
-# C++ for programmerere (IINI4003)
+# IINI4003: C++ for programmerere
 Faget krever innlevering av prosjektkatalogen som en komprimert fil vha. .tar.gz
 komprimering.
 
